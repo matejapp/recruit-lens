@@ -1,6 +1,8 @@
 <div align="center">
 
-<img src="screenshots/logo.png" alt="RecruitLens logo" width="72" height="72" />
+<img src="/docs/Landing.png" alt="RecruitLens logo" width="72" height="72" />
+<img src="/docs/Analyze.png" alt="RecruitLens logo" width="72" height="72" />
+<img src="/docs/Research.png" alt="RecruitLens logo" width="72" height="72" />
 
 # RecruitLens
 
@@ -65,20 +67,20 @@ Upload a resume and a job description. In seconds, you get:
 
 This tool is the practical implementation of a peer-reviewed study published in **REVIZOR — Journal for Organization Management, Finance and Audit**.
 
-> **Pavlović, M., Glišović, L., & Mirčetić, V.** (2026). *Uticaj veštačke inteligencije na savremene prakse regrutacije i selekcije* [The Impact of Artificial Intelligence on Contemporary Recruitment and Selection Practices]. *REVIZOR, 28*(4). https://doi.org/10.46793/Rev25112.091P
+> **Pavlović, M., Glišović, L., & Mirčetić, V.** (2026). _Uticaj veštačke inteligencije na savremene prakse regrutacije i selekcije_ [The Impact of Artificial Intelligence on Contemporary Recruitment and Selection Practices]. _REVIZOR, 28_(4). https://doi.org/10.46793/Rev25112.091P
 
 The paper documents how AI recruitment systems perpetuate historical discrimination through **proxy bias** — using seemingly neutral data points as stand-ins for protected characteristics. It identifies 8 specific patterns, each grounded in independent algorithmic bias research:
 
-| Signal | Proxies for | Severity | Source |
-|--------|-------------|----------|--------|
-| Graduation year | Age | Medium | Köchling & Wehner (2020) |
-| Foreign name | Ethnicity / national origin | **High** | Mehrabi et al. (2021) |
-| Home address | Socioeconomic status | Low | Raghavan et al. (2020) |
-| Employment gap | Disability or caregiving | Medium | Glazko et al. (2024) |
-| Disability language | Disability status | **High** | Glazko et al. (2024) |
-| Photo reference | Gender, ethnicity, age | **High** | Bogen & Rieke (2018) |
-| University prestige | Socioeconomic class | Low | Raghavan et al. (2020) |
-| Gendered language | Gender | Medium | Köchling & Wehner (2020) |
+| Signal              | Proxies for                 | Severity | Source                   |
+| ------------------- | --------------------------- | -------- | ------------------------ |
+| Graduation year     | Age                         | Medium   | Köchling & Wehner (2020) |
+| Foreign name        | Ethnicity / national origin | **High** | Mehrabi et al. (2021)    |
+| Home address        | Socioeconomic status        | Low      | Raghavan et al. (2020)   |
+| Employment gap      | Disability or caregiving    | Medium   | Glazko et al. (2024)     |
+| Disability language | Disability status           | **High** | Glazko et al. (2024)     |
+| Photo reference     | Gender, ethnicity, age      | **High** | Bogen & Rieke (2018)     |
+| University prestige | Socioeconomic class         | Low      | Raghavan et al. (2020)   |
+| Gendered language   | Gender                      | Medium   | Köchling & Wehner (2020) |
 
 RecruitLens detects all 8. Every flagged result includes the triggering excerpt, a plain-English explanation, and the academic citation — making the analysis fully transparent and explainable.
 
@@ -86,14 +88,14 @@ RecruitLens detects all 8. Every flagged result includes the triggering excerpt,
 
 ## Tech Stack
 
-| Layer | Technology |
-|-------|-----------|
-| Frontend | React 18 · Vite 5 · React Router v6 |
-| Backend | Python 3.11 · FastAPI · Uvicorn |
-| AI | Google Gemini 2.5 Flash |
-| Document parsing | pdfplumber · python-docx |
-| Security | Magic-byte file validation · CSP headers · CORS · Rate limiting |
-| Hosting | Vercel (frontend) · Render (backend) |
+| Layer            | Technology                                                      |
+| ---------------- | --------------------------------------------------------------- |
+| Frontend         | React 18 · Vite 5 · React Router v6                             |
+| Backend          | Python 3.11 · FastAPI · Uvicorn                                 |
+| AI               | Google Gemini 2.5 Flash                                         |
+| Document parsing | pdfplumber · python-docx                                        |
+| Security         | Magic-byte file validation · CSP headers · CORS · Rate limiting |
+| Hosting          | Vercel (frontend) · Render (backend)                            |
 
 ---
 
