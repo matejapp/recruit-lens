@@ -37,9 +37,9 @@ Upload a resume and a job description. In seconds, you get:
 
 ## Screenshots
 
-<img src="/docs/Landing.png" alt="RecruitLens logo" width="631" height="1280" />
-<img src="/docs/Analyze.png" alt="RecruitLens logo" width="631" height="1280" />
-<img src="/docs/Research.png" alt="RecruitLens logo" width="631" height="1280" />
+<img src="/docs/Landing.png" alt="RecruitLens logo" width="300" height="620" />
+<img src="/docs/Analyze.png" alt="RecruitLens logo" width="300" height="620" />
+<img src="/docs/Research.png" alt="RecruitLens logo" width="300" height="620" />
 
 <br />
 
