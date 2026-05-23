@@ -1,0 +1,21 @@
+services:
+  - type: web
+    name: recruitlens-api
+    runtime: python
+    rootDir: server
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
+    plan: free
+    envVars:
+      - key: GEMINI_API_KEY
+        sync: false          # set manually in Render dashboard — never commit the value
+      - key: MODEL_NAME
+        value: gemini-2.5-flash
+      - key: ALLOWED_ORIGIN
+        sync: false          # set to your Vercel domain, e.g. https://recruitlens.vercel.app
+      - key: MAX_FILE_SIZE_MB
+        value: "5"
+      - key: MIN_JD_LENGTH
+        value: "50"
+      - key: MAX_JD_LENGTH
+        value: "10000"
