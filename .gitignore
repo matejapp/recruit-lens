@@ -24,3 +24,9 @@ client/.env.production
 # IDE
 .vscode/settings.json
 .idea/
+
+# Internal architecture docs
+ARCHITECTURE.md
+
+# Claude Code settings
+.claude/
