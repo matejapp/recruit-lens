@@ -1312,12 +1312,15 @@ a {
 .about-page {
   max-width: 820px;
   width: 100%;
+  margin-left: auto;
+  margin-right: auto;
   gap: 0;
   padding-top: 48px;
 }
 
 /* Hero */
 .about-hero {
+  width: 100%;
   text-align: center;
   margin-bottom: 52px;
   animation: fadeUp 0.5s var(--ease-out-back) both;
@@ -1362,6 +1365,7 @@ a {
 
 /* Paper metadata card */
 .about-paper-card {
+  width: 100%;
   background: var(--bg-surface);
   border: 1px solid var(--border);
   border-radius: var(--r-xl);
@@ -1452,6 +1456,7 @@ a {
 
 /* About sections */
 .about-section {
+  width: 100%;
   margin-bottom: 48px;
   animation: fadeUp 0.5s var(--ease-smooth) 0.12s both;
 }
@@ -1683,6 +1688,7 @@ a {
 
 /* CTA row */
 .about-cta-row {
+  width: 100%;
   display: flex;
   gap: 12px;
   flex-wrap: wrap;
