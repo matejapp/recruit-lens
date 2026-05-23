@@ -37,23 +37,11 @@ Upload a resume and a job description. In seconds, you get:
 
 ## Screenshots
 
-<br />
+<img src="/docs/Landing.png" alt="RecruitLens logo" width="300" height="620" />
+<img src="/docs/Analyze.png" alt="RecruitLens logo" width="300" height="620" />
+<img src="/docs/Research.png" alt="RecruitLens logo" width="300" height="620" />
 
-**1 — Upload Form**
-
-![RecruitLens upload form — dark interface with resume dropzone and job description input](./docs/Landing.png)
-
-<br />
-
-**2 — ATS Score & Results**
-
-![RecruitLens results panel showing ATS score ring, pass/fail badge, extracted entities and keyword gaps](/docs/Analyze.png.png)
-
-<br />
-
-**3 — Research**
-
-![RecruitLens bias signals tab showing flagged resume elements with severity indicators and research citations](/docs/Research.png.png)
+</br>
 
 ---
 
