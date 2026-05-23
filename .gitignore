@@ -1,0 +1,26 @@
+# Environment
+.env
+server/.env
+
+# Python
+.venv
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Build / dist
+dist/
+build/
+*.egg-info/
+
+# Node
+node_modules/
+client/dist/
+client/.env.local
+client/.env.production
+
+# IDE
+.vscode/settings.json
+.idea/
