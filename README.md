@@ -1,9 +1,5 @@
 <div align="center">
 
-<img src="/docs/Landing.png" alt="RecruitLens logo" width="72" height="72" />
-<img src="/docs/Analyze.png" alt="RecruitLens logo" width="72" height="72" />
-<img src="/docs/Research.png" alt="RecruitLens logo" width="72" height="72" />
-
 # RecruitLens
 
 **Know what the algorithm sees.**
@@ -41,7 +37,9 @@ Upload a resume and a job description. In seconds, you get:
 
 ## Screenshots
 
-> Run the app locally (`npm run dev` + `uvicorn main:app --reload`), capture the three views below, save them to `screenshots/`, and commit before pushing.
+<img src="/docs/Landing.png" alt="RecruitLens logo" width="631" height="1280" />
+<img src="/docs/Analyze.png" alt="RecruitLens logo" width="631" height="1280" />
+<img src="/docs/Research.png" alt="RecruitLens logo" width="631" height="1280" />
 
 <br />
 
